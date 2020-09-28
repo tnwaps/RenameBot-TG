@@ -81,7 +81,7 @@ async def rename_doc(bot, update):
                 )
             except:
                 pass
-            if "@BGMovies" in the_real_download_location:
+            if "@BotGram_Movies" in the_real_download_location:
                 await bot.edit_message_text(
                     text=Translation.RENAME_403_ERR,
                     chat_id=update.chat.id,
